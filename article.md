@@ -1,4 +1,4 @@
-title: "Data z mobilů:<br>Praha se denně nafoukne o polovinu, v centru jsou návštěvníci v převaze"
+title: "Data pitomejs z mobilů:<br>Praha se denně nafoukne o polovinu, v centru jsou návštěvníci v převaze"
 perex: "Skoro 140 tisíc lidí přijede do Prahy každý den za prací. Míří hlavně do kancelářských budov a do centra města. S nimi pak dorazí i přes půl milionu návštěvníků. Ukázala to analýza dat o pohybu mobilních telefonů, kterou si nyní město nechává zpracovat."
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='https://ctk.cz'>ČTK</a>"
@@ -8,7 +8,7 @@ options: [noheader] #wide, noheader (, nopic)
 ---
 <left>
 	<p>
-	<b>KAREL HYNEK MÁCHA</b>
+	<b>KAREL HYNExxxK MÁCHA</b>
 	</p><p>
 	Karel Hynek Mácha (16. listopadu 1810 Praha-Malá Strana[1] – 6. listopadu 1836 Litoměřice[2]) byl český básník a prozaik, představitel českého romantismu a zakladatel moderní české poezie. Proslavil se jak svým životem, tak dílem, jemuž dominuje Máj (1836).
 	</p>
