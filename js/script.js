@@ -1,66 +1,67 @@
 ﻿import "./byeie"; // loučíme se s IE
+
 const data = {
-  doziti:[{"year":1800,"value":30.46},{"year":1810,"value":30.62},{"year":1820,"value":30.81},{"year":1830,"value":30.91},{"year":1840,"value":30.98},{"year":1850,"value":31.1},{"year":1860,"value":29.91},{"year":1870,"value":31.09},{"year":1880,"value":31.59},{"year":1890,"value":32.01},{"year":1900,"value":32.04},{"year":1910,"value":34.29},{"year":1920,"value":34.46},{"year":1930,"value":38.64},{"year":1940,"value":40.74},{"year":1950,"value":47.72},{"year":1960,"value":49.92},{"year":1970,"value":59.19},{"year":1980,"value":62.55},{"year":1990,"value":65.1},{"year":2000,"value":66.82},{"year":2010,"value":70.33},{"year":2020,"value":73.34}],
-  demokracie:[{"year":1820,"value":0.92},{"year":1830,"value":1.16},{"year":1840,"value":1.46},{"year":1850,"value":4.93},{"year":1860,"value":2.95},{"year":1870,"value":3.88},{"year":1880,"value":9.25},{"year":1890,"value":10.08},{"year":1900,"value":11.97},{"year":1910,"value":13.02},{"year":1920,"value":19.62},{"year":1930,"value":16.9},{"year":1940,"value":9.37},{"year":1950,"value":31.41},{"year":1960,"value":38.52},{"year":1970,"value":33.35},{"year":1980,"value":35.21},{"year":1990,"value":43.33},{"year":2000,"value":56.08},{"year":2010,"value":54.26}],
-  katastrofy:[{"year":"1900","value":450.3313},{"year":"1910","value":333.7244},{"year":"1920","value":873.3432},{"year":"1930","value":970.6603},{"year":"1940","value":388.2758},{"year":"1950","value":213.81},{"year":"1960","value":175.6932},{"year":"1970","value":102.4111},{"year":"1980","value":85.4706},{"year":"1990","value":122.399},{"year":"2000","value":93.6641},{"year":"2010","value":64.978375}],
-  deti:[{"year":1800,"value":43.3},{"year":1820,"value":42.7},{"year":1840,"value":40.4},{"year":1860,"value":41.4},{"year":1880,"value":38},{"year":1900,"value":36.2},{"year":1920,"value":32.1},{"year":1940,"value":23.9},{"year":1960,"value":18.5},{"year":1970,"value":14.49},{"year":1980,"value":11.64},{"year":1990,"value":9.06},{"year":2000,"value":7.59},{"year":2010,"value":5.17}],
-  gramotnost:[{"year":1800,"value":12.05},{"year":1820,"value":12.05},{"year":1870,"value":18.74},{"year":1880,"value":19.63},{"year":1890,"value":20.52},{"year":1900,"value":21.4},{"year":1910,"value":26.45},{"year":1920,"value":31.62},{"year":1930,"value":32.53},{"year":1940,"value":41.88},{"year":1950,"value":35.96},{"year":1960,"value":41.62},{"year":1970,"value":55.62},{"year":1980,"value":56.05},{"year":1990,"value":68.25},{"year":2000,"value":81.88},{"year":2010,"value":85.3}],
-  chudoba:[{"year":1820,"value":94.4},{"year":1850,"value":92.5},{"year":1870,"value":89.6},{"year":1890,"value":85.7},{"year":1910,"value":82.4},{"year":1929,"value":75.9},{"year":1950,"value":71.9},{"year":1960,"value":64.3},{"year":1970,"value":60.1},{"year":1981,"value":43.96},{"year":1984,"value":40.84},{"year":1987,"value":36.96},{"year":1990,"value":36.91},{"year":1993,"value":34.79},{"year":2000,"value":29.08},{"year":2002,"value":26.29},{"year":2005,"value":20.92},{"year":2008,"value":18.65},{"year":2010,"value":16.27}]
+  dozitiM: [{ year: 1989, value: 68.1 }, { year: 1990, value: 67.6 }, { year: 1991, value: 68.2 }, { year: 1992, value: 68.5 }, { year: 1993, value: 69.3 }, { year: 1994, value: 69.5 }, { year: 1995, value: 69.7 }, { year: 1996, value: 70.4 }, { year: 1997, value: 70.5 }, { year: 1998, value: 71.1 }, { year: 1999, value: 71.4 }, { year: 2000, value: 71.6 }, { year: 2001, value: 72.0 }, { year: 2002, value: 72.1 }, { year: 2003, value: 72.1 }, { year: 2004, value: 72.6 }, { year: 2005, value: 72.9 }, { year: 2006, value: 73.4 }, { year: 2007, value: 73.7 }, { year: 2008, value: 74.0 }, { year: 2009, value: 74.2 }, { year: 2010, value: 74.4 }, { year: 2011, value: 74.7 }, { year: 2012, value: 75.0 }, { year: 2013, value: 75.2 }, { year: 2014, value: 75.7 }, { year: 2015, value: 75.6 }, { year: 2016, value: 76.0 }],
+  dozitiZ: [{ year: 1989, value: 75.5 }, { year: 1990, value: 75.4 }, { year: 1991, value: 75.8 }, { year: 1992, value: 76.2 }, { year: 1993, value: 76.5 }, { year: 1994, value: 76.7 }, { year: 1995, value: 76.7 }, { year: 1996, value: 77.4 }, { year: 1997, value: 77.5 }, { year: 1998, value: 78.0 }, { year: 1999, value: 78.1 }, { year: 2000, value: 78.4 }, { year: 2001, value: 78.5 }, { year: 2002, value: 78.7 }, { year: 2003, value: 78.6 }, { year: 2004, value: 79.2 }, { year: 2005, value: 79.3 }, { year: 2006, value: 79.9 }, { year: 2007, value: 80.1 }, { year: 2008, value: 80.3 }, { year: 2009, value: 80.3 }, { year: 2010, value: 80.6 }, { year: 2011, value: 80.8 }, { year: 2012, value: 81.0 }, { year: 2013, value: 81.2 }, { year: 2014, value: 81.7 }, { year: 2015, value: 81.5 }, { year: 2016, value: 81.8 }],
+  narozeni: [{ year: 1989, value: 22.5 }, { year: 1990, value: 22.5 }, { year: 1991, value: 22.4 }, { year: 1992, value: 22.5 }, { year: 1993, value: 22.6 }, { year: 1994, value: 22.9 }, { year: 1995, value: 23.3 }, { year: 1996, value: 23.7 }, { year: 1997, value: 24.0 }, { year: 1998, value: 24.4 }, { year: 1999, value: 24.6 }, { year: 2000, value: 24.9 }, { year: 2001, value: 25.3 }, { year: 2002, value: 25.6 }, { year: 2003, value: 25.9 }, { year: 2004, value: 26.3 }, { year: 2005, value: 26.6 }, { year: 2006, value: 26.9 }, { year: 2007, value: 27.1 }, { year: 2008, value: 27.3 }, { year: 2009, value: 27.4 }, { year: 2010, value: 27.6 }, { year: 2011, value: 27.8 }, { year: 2012, value: 27.9 }, { year: 2013, value: 28.1 }, { year: 2014, value: 28.1 }, { year: 2015, value: 28.2 }, { year: 2016, value: 28.2 }],
+  rozvody: [{ year: 1989, value: 37.1 }, { year: 1990, value: 38.0 }, { year: 1991, value: 34.8 }, { year: 1992, value: 33.9 }, { year: 1993, value: 36.2 }, { year: 1994, value: 37.5 }, { year: 1995, value: 38.4 }, { year: 1996, value: 41.8 }, { year: 1997, value: 42.1 }, { year: 1998, value: 43.1 }, { year: 1999, value: 32.5 }, { year: 2000, value: 41.4 }, { year: 2001, value: 44.7 }, { year: 2002, value: 45.7 }, { year: 2003, value: 48.0 }, { year: 2004, value: 49.3 }, { year: 2005, value: 47.3 }, { year: 2006, value: 48.7 }, { year: 2007, value: 48.7 }, { year: 2008, value: 49.6 }, { year: 2009, value: 46.8 }, { year: 2010, value: 50.0 }, { year: 2011, value: 46.2 }, { year: 2012, value: 44.5 }, { year: 2013, value: 47.8 }, { year: 2014, value: 46.7 }, { year: 2015, value: 46.5 }, { year: 2016, value: 45.2 }],
+  prirustek: [{ year: 1989, value: 1459.0 }, { year: 1990, value: 624.0 }, { year: 1991, value: 2876.0 }, { year: 1992, value: 11781.0 }, { year: 1993, value: 5476.0 }, { year: 1994, value: 9942.0 }, { year: 1995, value: 9999.0 }, { year: 1996, value: 10129.0 }, { year: 1997, value: 12075.0 }, { year: 1998, value: 9488.0 }, { year: 1999, value: 8774.0 }, { year: 2000, value: 6539.0 }, { year: 2001, value: -8551.0 }, { year: 2002, value: 12290.0 }, { year: 2003, value: 25789.0 }, { year: 2004, value: 18635.0 }, { year: 2005, value: 36229.0 }, { year: 2006, value: 34720.0 }, { year: 2007, value: 83945.0 }, { year: 2008, value: 71790.0 }, { year: 2009, value: 28344.0 }, { year: 2010, value: 15648.0 }, { year: 2011, value: 16889.0 }, { year: 2012, value: 10293.0 }, { year: 2013, value: -1297.0 }, { year: 2014, value: 21661.0 }, { year: 2015, value: 15977.0 }, { year: 2016, value: 20064.0 }],
+  knihy: [{ year: 2000, value: 11965.0 }, { year: 2001, value: 14321.0 }, { year: 2002, value: 14278.0 }, { year: 2003, value: 16451.0 }, { year: 2004, value: 15749.0 }, { year: 2005, value: 15350.0 }, { year: 2006, value: 17019.0 }, { year: 2007, value: 18029.0 }, { year: 2008, value: 18520.0 }, { year: 2009, value: 17598.0 }, { year: 2010, value: 17054.0 }, { year: 2011, value: 18985.0 }, { year: 2012, value: 17247.0 }, { year: 2013, value: 17876.0 }, { year: 2014, value: 18379.0 }, { year: 2015, value: 18282.0 }, { year: 2016, value: 17815.0 }],
 };
 
+const postResult = () => false;
+
 grafokres.grafokres({
-	elem: "#graf1",
-	data: data.doziti,
-	cutoff: 1940,
-	interval: "decade",
-	btnFn: postResult,
+  elem: "#graf1",
+  data: data.dozitiM,
+  cutoff: 1997,
+  interval: "year",
+  btnFn: postResult,
+  // yMin: 0,
+  // yMax: 0,
 });
 
 grafokres.grafokres({
-	elem: "#graf2",
-	data: data.demokracie,
-	cutoff: 1940,
-	interval: "decade",
-	btnFn: postResult,
-	yFormat: "x + ' %'"
+  elem: "#graf2",
+  data: data.dozitiZ,
+  cutoff: 1997,
+  interval: "year",
+  btnFn: postResult,
 });
 
 grafokres.grafokres({
-	elem: "#graf3",
-	data: data.katastrofy,
-	cutoff: 1950,
-	interval: "decade",
-	btnFn: postResult,
-	yMin: 0,
-	yMax: 1000
+  elem: "#graf3",
+  data: data.narozeni,
+  cutoff: 1997,
+  interval: "year",
+  btnFn: postResult,
 });
 
 grafokres.grafokres({
-	elem: "#graf4",
-	data: data.deti,
-	cutoff: 1940,
-	interval: "decade",
-	btnFn: postResult,
-	yFormat: "x + ' %'"
+  elem: "#graf4",
+  data: data.rozvody,
+  cutoff: 1997,
+  interval: "year",
+  btnFn: postResult,
+  yFormat: "x + ' %'",
 });
 
 grafokres.grafokres({
-	elem: "#graf5",
-	data: data.gramotnost,
-	cutoff: 1960,
-	interval: "decade",
-	btnFn: postResult,
-	yFormat: "x + ' %'"
+  elem: "#graf5",
+  data: data.prirustek,
+  cutoff: 1997,
+  interval: "year",
+  btnFn: postResult,
+  yMin: -100000,
+  yMax: 100000,
 });
 
 grafokres.grafokres({
-	elem: "#graf6",
-	data: data.chudoba,
-	cutoff: 1950,
-	interval: "decade",
-	btnFn: postResult,
-	yFormat: "x + ' %'"
+  elem: "#graf6",
+  data: data.knihy,
+  cutoff: 2005,
+  interval: "year",
+  btnFn: postResult,
+  yMin: -100000,
+  yMax: 100000,
 });
-
-const postResult = () => console.log("ok!")
-

@@ -1,25 +1,25 @@
-title: "Data pitomejs z mobilů:<br>Praha se denně nafoukne o polovinu, v centru jsou návštěvníci v převaze"
-perex: "Skoro 140 tisíc lidí přijede do Prahy každý den za prací. Míří hlavně do kancelářských budov a do centra města. S nimi pak dorazí i přes půl milionu návštěvníků. Ukázala to analýza dat o pohybu mobilních telefonů, kterou si nyní město nechává zpracovat."
+title: "grafy 89+30"
+perex: "kolik let už vlastně známe chuť svobody a teď se mu chce zvracet když slyší cinkat klíče"
 coverimg: https://interaktivni.rozhlas.cz/brexit/media/cover.jpg
 coverimg_note: "Foto <a href='https://ctk.cz'>ČTK</a>"
 styles: []
 libraries: ["https://data.irozhlas.cz/grafokres/dist/grafokres.js"]
-options: [noheader] #wide, noheader (, nopic)
+options: [noheader, nopic] #wide, noheader (, nopic)
 ---
-### Délka dožití
+### Naděje dožití - muži
 <div id="graf1" class="graf"></div>
 
-### Podíl lidí žijících v demokracii ([zdroj](https://ourworldindata.org/grapher/world-pop-by-political-regime))
+### Naděje dožití - ženy
 <div id="graf2" class="graf"></div>
 
-### Počet obětí přírodních katastrof (tisíce, průměr v daném desetiletí; [zdroj](https://www.emdat.be/))
+### Průměrný věk matky při narození prvního dítěte 
 <div id="graf3" class="graf"></div>
 
-### Podíl dětí, které zemřou do pěti let věku ([zdroj](https://ourworldindata.org/child-mortality))
+### Úhrnná rozvodovost (v %) 
 <div id="graf4" class="graf"></div>
 
-### Podíl gramotných lidí ([zdroj](https://ourworldindata.org/literacy))
+### Přírůstek stěhováním 
 <div id="graf5" class="graf"></div>
 
-### Podíl lidí žijích v extrémní chudobě ([zdroj](https://ourworldindata.org/extreme-poverty))
+### Knihy (tituly)
 <div id="graf6" class="graf"></div>
