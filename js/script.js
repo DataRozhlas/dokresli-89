@@ -17,7 +17,7 @@ grafokres.grafokres({
   cutoff: 1997,
   interval: "year",
   btnFn: postResult,
-  // yMin: 0,
+  yMin: 50,
   // yMax: 0,
 });
 
@@ -27,6 +27,7 @@ grafokres.grafokres({
   cutoff: 1997,
   interval: "year",
   btnFn: postResult,
+  yMin: 50,
 });
 
 grafokres.grafokres({
@@ -35,6 +36,8 @@ grafokres.grafokres({
   cutoff: 1997,
   interval: "year",
   btnFn: postResult,
+  ymin: 10,
+  yMax: 55,
 });
 
 grafokres.grafokres({
@@ -52,7 +55,7 @@ grafokres.grafokres({
   cutoff: 1997,
   interval: "year",
   btnFn: postResult,
-  yMin: -100000,
+  yMin: -50000,
   yMax: 100000,
 });
 
@@ -62,6 +65,6 @@ grafokres.grafokres({
   cutoff: 2005,
   interval: "year",
   btnFn: postResult,
-  yMin: -100000,
-  yMax: 100000,
+  yMin: 0,
+  yMax: 30000,
 });
